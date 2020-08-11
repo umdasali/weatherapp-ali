@@ -447,3 +447,56 @@
     animation: animaterio 3s linear infinite;
 }
 }
+
+@media only screen and (max-width: 414px){
+      .landing-box-left {
+        display: block;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    
+       .phone-hero {
+        width: 150px;
+        height: 300px;
+        margin-top:0%;
+
+    }
+     .london {
+        width: 80px;
+        height: 80px;
+        padding: 5px;
+        overflow: hidden;
+        z-index: 100;
+        margin-top: -100px;
+        animation: animateblue 2s linear infinite;
+    }
+    
+    .down-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+        margin-top: -10px;
+    animation: animatearrow 1.5s linear infinite;
+}
+    .slide > ul {
+        margin-left:0%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        overflow: hidden;
+
+    } 
+    .widget-img{
+        width: 110px;
+    }
+    .rio {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    overflow: hidden;
+    z-index: 100;
+    margin-top: 300px;
+    margin-left: -80px;
+    animation: animaterio 3s linear infinite;
+}
+}
